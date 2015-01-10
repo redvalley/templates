@@ -1,0 +1,12 @@
+<h2>Content of sub</h2>
+
+ {{#link-to 'sub.subsub'}}Navigate to sub-sub{{/link-to}}
+
+<ul>
+
+{{outlet}}
+
+{{#each subentry in content}}
+	<li>{{subentry.name}}</li>
+{{/each}}
+</ul>

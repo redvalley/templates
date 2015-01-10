@@ -1,0 +1,28 @@
+{
+  "name": "redvalley-emberjs-template",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ruperteder/templates",
+  "authors": [
+    "Rupert Eder <rupert.eder@redvalley-software.com>"
+  ],
+  "description": "This is an emberjs project template, that can be used to create modern single page applications.",
+  "main": "index.html",
+  "keywords": [
+    "emberjs",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.9.1",
+    "bootstrap": "~3.3.1",
+    "amplify": "~1.1.2"
+  }
+}

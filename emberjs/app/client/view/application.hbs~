@@ -1,0 +1,7 @@
+<h1>RED CLOUD</h1>
+
+<nav>
+  {{#link-to 'contacts'}}Contacts{{/link-to}}
+</nav>
+
+<div>{{outlet}}</div>
