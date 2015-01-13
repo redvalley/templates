@@ -1,7 +1,0 @@
-
-
-app.ContactsRoute = Ember.Route.extend({
-	model: function() {
-	
-	}
-});
